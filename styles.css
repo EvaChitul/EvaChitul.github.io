@@ -1,0 +1,237 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*TEXT DETAILS*/
+h2 {
+  font-family: 'TeX Gyre Adventor', 'Apple Chancery', 'Bookman', 'Times New Roman', sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #13ACAC;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'TeX Gyre Adventor', 'Apple Chancery', 'Bookman', 'Times New Roman', sans-serif;
+  margin-bottom: 20px;
+  color: #13ACAC;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.8;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'TeX Gyre Adventor', 'Apple Chancery', 'Bookman', 'Times New Roman', sans-serif;
+  font-size: 1.3em;
+  border: 20px;
+}
+
+/*HEADER */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #13ACAC;
+  color: #fff;
+  padding: 20px 0;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.header-text {
+  text-align: left;
+  font-size: 1.5em;
+  width: 40%;
+  /* border: 2px solid black;  */
+  line-height: 1.5;
+  font-family: 'TeX Gyre Adventor', 'Apple Chancery', 'Bookman', 'Times New Roman', sans-serif;
+  position: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+/*MENU*/
+.navigation-menu {
+/*  border: 2px solid red; */
+  width: 50%;
+  display: flex;
+}
+
+.placement {
+  border-bottom: 2px solid
+}
+.menu {
+  width: 100%;
+/*  border: 2px solid black; */
+  margin-top: 110px;
+  margin-right: 25px;
+  justify-content: space-between;
+  padding: 25px;
+  position: right;
+  text-align: right;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 20px;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c7f73;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #085e55;
+  text-decoration: none;
+}
+
+/*BODY*/
+.body-intro {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border: 20px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-intro {
+  padding: 10px;
+  text-align: justify;
+/*  border: 2px solid black; */
+
+}
+
+.romania-text {
+  padding: 10px;
+  text-align: justify;
+/*  border: 2px solid black; */
+
+}
+
+.boarding-text {
+  text-align: justify;
+/*  border: 2px solid black; */
+  border: 2px solid black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border: 2px solid white;
+}
+
+.chess-text {
+  text-align: justify;
+/*  border: 2px solid black; */
+  border: 2px solid white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.kitten-text {
+  text-align: justify;
+/*  border: 2px solid black; */
+  padding-top: 50px;
+  padding-bottom: 60px;
+  border: 2px solid white;
+}
+
+/*PHOTOS*/
+.photo-intro {
+  padding: 25px 10px 0 10px;
+  float: left;
+  margin-right: 30px;
+}
+
+.transylvania, .chess {
+  float: left;
+/*  clear:both; */
+  padding: 10px;
+  border: 5px solid white;
+}
+
+.snowboarding, .kitten {
+  float: right;
+  /*clear: both; */
+  padding: 10px;
+  border: 5px solid white;
+}
+
+/*FOOTER*/
+.footer {
+  color: #fff;
+  background-image: linear-gradient(121deg, #13ACAC 47.62%, #73d1ce 47.62%, #73d1ce 50%, #13ACAC 50%, #13ACAC 97.62%, #73d1ce 97.62%, #73d1ce 100%);
+  background-size: 24.50px 40.77px;
+  padding: 20px;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.copyright {
+  font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  justify-content: flex-start;
+  width: 20%;
+  margin-top: 40px;
+}
+
+.footer-elements {
+/*  border: 2px solid black; */
+  width: 80%;
+  float: right;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.logo-item {
+  width: 25%;
+  margin-left: 200px;
+  margin-right: 50px;
+
+}
+
+/*TECH BACKGROUD*/
+.tech-logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.tech-text {
+  margin: 20px;
+}
